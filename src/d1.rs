@@ -1,4 +1,5 @@
 use std::iter::zip;
+use std::str::FromStr;
 
 fn first(data: &str) -> anyhow::Result<i64> {
     let mut first = Vec::<i64>::new();
